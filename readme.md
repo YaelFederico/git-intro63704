@@ -65,4 +65,12 @@ git diff
 Este archivo me srive para ignorar carpetas o archivos que no quiere que sean parte del repositorio (LR).
  Normalmente va sobre la raíz del proyecto.
 
-Necesito crear el comando .gitignore
+Necesito crear el comando **.gitignore**
+
+## si quiero seguir una carpeta vácia.
+Tengo que crear un archivo con el nombre **.gitkeep** porque git no versiona carpetas vacias.
+
+```sh
+touch images/.gitkeep
+```
+
