@@ -73,4 +73,9 @@ Tengo que crear un archivo con el nombre **.gitkeep** porque git no versiona car
 ```sh
 touch images/.gitkeep
 ```
+## Para subir el repostiro Local al remoto
 
+1. Tengo que crear un repositorio remoto
+2. Seguir las instrucciones que correspondan para el caso
+2. Agrego la url del remoto a mi repo local. (git remote add origin git@github.com:mlapeducacionit/manzana.git)
+4. Hago el push
